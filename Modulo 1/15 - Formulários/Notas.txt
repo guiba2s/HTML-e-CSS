@@ -1,0 +1,35 @@
+Como criar formularios, o codigo ira abordar
+-Required(deixa o campo obrigatorio), autofocus(focar em um campo), Disabled (Desabilitar o campo)
+-maxlength ( indica o maximo de caractere aceito em um capo)
+
+Utilizar inputs:
+-input type email - utilizado para prencher o campo com e-mail
+-input type radio - são similares a checkbox mas com campos redondos, utilizados para prencher dados
+-input type checbox - atributo utilizado para prencher campos quadrados
+
+-Checked - para inicializar a pagina com algum checkbox ou radio prenchido
+-input type number - campo para ser prenchido com valores
+	-step - é o passo do incremento numerico quando clicado na setinha de mais e menos7
+-input type ranger - é um slide bar
+-input type color - é um campo que eh possivel escolher uma cor
+
+
+Atributos legais - 
+	autocomplete - irá autocomlpetar oque o usuario digitar no campo
+	placeholder - irá mostar um texto de previsualizacao em um campo.
+
+mais inputs- file, url, search, tel, date, time, month, week, datetime-local, estão todos exemplificados 
+no código
+
+<textarea></textarea> - essa tag permite a criacao de um campo de texto
+<button></button> - essa tag permite a criacao de um botão, porém tem uma diferenca
+entre a tag input type button. A <butto> permite a criação de conteudo para colocar dentro dele
+seja mensgaem ou imagem.
+
+<select></select> - pode criar uma lista com opcoes, essas opcoes podem ser agrupadas em grupos
+com uso de <optgroup></optgroup>. Para cria as listas de opcoes se utiliza o <option></option>
+
+Criar um input com uma lista de dados pré-definida:
+ <datalis></datalist>, pra isso deve se criar um input que ira receber os dados da datalist.
+Dentro do datalist deve estar as tags option, para tornar o campo selecionavel.
+ou seja, o inpu deve receber o parametro do data list, por meio da seguinte instrução - list="id da datalist"

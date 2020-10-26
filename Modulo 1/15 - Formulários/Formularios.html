@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Formulário </title>
+  </head>
+  <body>
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend> Informações pessoais </legend>
+
+        Nome:<br>
+        <input type="text" name="nome" placeholder="Seu Nome"> <br>
+        Senha:<br>
+        <input type="password" name="senha"> <br>
+
+        Email:<br>
+        <input type="email" name = "e-mail" placeholder="e-mail@email.com"><br>
+        Times:<br>
+        <input type="radio" name = "time" value="Vasco"> Vasco <br>
+        <input type="radio" name= "time" value="Flamengo"> Flamengo <br>
+        <input type="radio" name= "time" value="Corinthias" checked> Corinthias <br>
+        Cores:<br>
+        <input type="checkbox" name="cores" value="Verde"> Verde <br>
+        <input type="checkbox" name="Cores" value="Vermelhor" checked> Vermelho <br>
+        <input type="checkbox" name="cores" value="Azul"> Azul<br>
+        <input type="color" name = "cor"><br>
+        Quantidade:<br>
+        <input type="number" name="quantidade" min="0" max="50" step ="10"><br>
+        <input type="range" name = "quantidade"><br>
+
+        Imagem:<br>
+        <input type="file" name="imagem"><br><br>
+
+        URL:<br>
+        <input type="url" name="site"><br>
+
+        Search:<br>
+        <input type="search" name="pesquisa"><br>
+
+        Telefone:<br>
+        <input type="tel" name="telefone"><br>
+
+        Data:<br>
+        <input type="date" name="data"><br><br>
+
+        Hora:<br>
+        <input type="time" name="hora"><br>
+
+        Mes e ano:<br>
+        <input type="month" name="mes"><br>
+
+        Semana:<br>
+        <input type="week" name="semana"><br>
+
+        Data e hora:<br>
+        <input type="datetime-local" name="data e hora"><br>
+
+        Mensagem:<br>
+        <textarea name = "Mensagem" rows="5" cols="30"></textarea><br><br>
+        <button type="button"> Clique-me </button><br>
+        <input type="submit" name="btn.Enviar" value="teste"><br>
+
+        <select name="Veiculo">
+
+          <optgroup label="Carros">
+            <option value="Camaro"> Camaro </option>
+            <option value="HB20" selected> HB20 </option>
+            <option value="GOL"> GOL </option>
+          </optgroup>
+
+          <optgroup label="Motos">
+            <option value="CB300"> CB300 </option>
+            <option value="pop100"> POP-100</option>
+            <option value="CG-100"> CG- 150</option>
+          </optgroup>
+
+        </select><br>
+        Escolha um curso:<br>
+        <input name="cursos" list="lista-cursos">
+
+        <datalist id = "lista-cursos">
+          <option value="HTML5">
+          <option value="CSS3">
+          <option value ="PHP">
+        </datalist>
+        <br><br>
+      </fieldset>
+    </form>
+  </body>
+</html>
