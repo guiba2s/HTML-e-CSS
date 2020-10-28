@@ -1,0 +1,7 @@
+Details é um recurso para exibir detalhes de um conteúdo.
+tag <details></details>. porém é necessário colocar um sumário com os conteudos
+que eu quero colocar os detalhes.
+Sumario pode ser criado pela tag <summary></summary>. no exemplo foi criado
+uma lista não ordenada para criar o sumario.
+Lista não ordenada - <ul></ul>
+itens listados - <il>

@@ -1,0 +1,16 @@
+O mark é utilizado para marcar uma área dentro de um texto, sua sintaxe é
+<Mark> Texto a ser marcado </Mark> e essa marcação possui propriedades que podem
+ser alteradas.
+
+o contenteditable é utilizada para tornar um campo editavel, se eu colocar essa atribuição
+a uma div, todo seu conteudo será editavel, porém, caso haja necessidade de um paragrado não ser
+editavel, basta apenas atribuir a instrução "contenteditable = false" a esse paragrafo
+
+TABINDEX e ACESSKEY
+para se alternar entre opcões é utilizado o tabindex, enquanto o acesskey é utilizado
+para criar atalhos para links por meio de teclas.
+
+EX:
+<a href = "http://www.google.com.br" tabindex ="1" acesskey = "g"> Google </a><br>
+essa instrução me diz que o link pro google será o primeiro item a ser selecionando ao
+pressionar a tecla TAB, e outra forma de acessar o link é pelo atalho alt+g

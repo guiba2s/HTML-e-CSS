@@ -1,0 +1,11 @@
+Aula aborda o uso de meter -> essa tag é utilizada para exibir uma barra de medição
+pode ser util em projetos em que faço a leitura de valores analogicos e imprimo no site html
+sintaxe: <meter></meter> - deve ser atribuido "min", "low", "optimum" "high" "max" "value"
+min = valor minimo
+low = valor baixo
+optimum = valor ideal
+high = valor alto
+max = valor maximo
+
+também pode ser representado por % mas da seguinte forma:
+  para repreentar 50%, tenho que inseerir 0.5

@@ -1,0 +1,10 @@
+Essa aula tem como objetivo abordar o uso da tag figure e a Figcaption.
+utilizando essa tag, é possivel agrupar as informações que serão imprimidas na tela
+essas informações são referentes a figuras. A sintaxe é:
+<figure></figure> - usado para criar albuns???
+
+<img src="caveira.jpg" alt="Punisher" title="skull">
+src -> caminho que irá buscar a imagem
+alt -> texto alternativo que irá aparecer na imagem, caso por alguma razão a imagem
+não seja carregada
+title -> texto que irá aparecer quaso eu descance o mouse em cima da imagem
