@@ -1,0 +1,16 @@
+Essa aula, será exemplificado o uso de ferramentas de formatação de texto, como
+mudar a cor do paragrafo, e alinhar títulos com o uso de text-align
+
+text-transform: uppercase; - transforma o texto, com o uppercase, todas ficam maiusculas,
+se utillizar o "captilaze, apenas a primeira letra de cada palavra fica maiusculas"
+
+text-indent -> serve para criar um recuo na primeira linha.
+line-height -> defini o espacamento entre as linhas.
+direction -> define a direção do texto -> direction:rlt -> direita pra a esquerda; direction=ltr -> da eserda para a direita
+letter-spacing -> determina o espacamento entre as letras, pode ser positivo ou negativo.
+word-spacing -> espacamento entre as palavras.
+text-shadow -> adicona uma sombra ao texto, é necessário passar a posicao horizontal e vertical da sobra, desfoque (nao obrigatorio) e a cor da sombra
+  text-shadow:3px 3px 4px red
+
+
+  off-topic:  a propriedade box-sizing:border-box garente que o padding seja incluso porém sem aumentar o tamanho da div

@@ -1,0 +1,39 @@
+Nessa aula será abordado o uso de seletores universais, seletores de tipo e seletor de atributo
+-*{margin: 0; padding: 0; color: red;} - isso é um exemplo de seletor universal, que altera todo o documento do texto.
+  Geralmente se utiliza um seletor universal para criar um reset
+  -h1{color: blue ; font-size: 60px;font-family: tahoma;} Seletor tag, ou tipo, onde se vai declara o nome da tag
+input{width: 200px; background-color:#ccc } altera todos os inputos, o #ccc é para colocar umac or
+em hexadecimal.
+input[type = "email"]{width: 400px; background-color:#ccc } ao incluir o type entre chaves, eu defino que apenas auqele
+tipo ira sofrer as alterações que desejo que sejam realizadas
+
+*Agrupamento de seletores
+Ao inves de repetir código, eu posso agrupar seletores, como por exemplo:
+h1{color: blue ; font-size: 60px;font-family: tahoma; text-align:center;}
+h2{color: black; font-size: 60x;font-family: tahoma; text-align: center;}
+
+os dois codigos estão iguais, para não ter que repetir o mesmo codigo, posso escrever da seguinte forma
+
+h1, h2{color: blue ; font-size: 60px;font-family: tahoma; text-align:center;} - apenas separar por vírgulas
+
+*Seletor ID e CLASS
+
+para criar uma classe, o id da classe deve ser precedido de um ponto exempo:
+.texto-principal{color: red; text-aling: center;} - informação na folha .classe
+
+no código html o texto a ser modificado deve ser atribuido a classe, da seguinte forma:
+<p class = "texto-principal"> sua mensagem aqui </p> - dessa forma o paragrafo vai receber os parametros por meio de um id, a classe deve ser atribuida no código alvo
+
+ou seja o class é precedido de um ponto -> .class
+
+#id{configurações} - o seletor ID é precedido de um jogo da velha e é instanciado da seguinte forma:
+#conteudo { background-color:blue; padding: 20px; color:green;} - na folha .class
+no código se faz o uso da tag <div></div>
+
+exemplo:
+<div id = "conteudo">
+ O id é aplicavel a apenas um elemento, equanto as regras de uma classe pode ser atribuida a vários elementos de uma página
+ </div>
+
+ A diferenca de uma class e um id é que o id é unico, só é atribuivel a um unico elemento na página, euqnato a classe pode ser atribuida a vários
+ outros elementos.

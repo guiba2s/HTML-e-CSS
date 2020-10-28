@@ -1,0 +1,15 @@
+Aula 6 - width. height, max e min
+Algumas propriedades serão abordadas, incluindo as propriedades de Dimensão
+pode ser utilizao o width para estimular um valor fixo de largura, o mesmo vale para o
+height.
+
+Existem atribuições como max-width e max-height que permite valores maximos sejam estipulados, isso permite
+que o tamanho da tela possa ser reduzido, po´rem nunca irão passar dos valores máximos. A regra vale o mesmo
+para min-width e min-height.
+
+aula 07 - padding e margin
+
+padding é um espacamento interno em torno do elemento que o circunda.
+ex: padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px; -> pode ser sbustituido por = padding: 10px 10px 10px 10px;
+
+Margin - server para separar uma div da outra, inserindo espaçamento

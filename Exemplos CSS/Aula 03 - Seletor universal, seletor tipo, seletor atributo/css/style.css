@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0; color: red;}
+
+h1{color: blue ; font-size: 60px;font-family: tahoma; text-align:center;}
+h2{color: black; font-size: 24px;font-family: tahoma; text-align: center;}
+p{color: green; font-size: 12px; font-family: tahoma;}
+
+.texto-principal{color: red; text-align: center;}
+
+#conteudo{background-color: blue; padding: 20px; color: black;}
+
+input{width: 200px; background-color:#ccc }
+input[type = "email"]{width: 400px; background-color:#ccc; border: none;}
