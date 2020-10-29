@@ -1,0 +1,5 @@
+hover -> pseudoclasse que controla o estado do movimento quando o mouse por cima fazendo a ação que programeei
+a propriedade transition serve para suavizar a transição de estado realizado pela subclasse hover
+
+Ou seja crio uma classe de nome exemplo, e ao passar o mouse por cima, devido a ação da subclasse hover, a div irá
+criar uma ação nova quando o mouse passar por cima desta.

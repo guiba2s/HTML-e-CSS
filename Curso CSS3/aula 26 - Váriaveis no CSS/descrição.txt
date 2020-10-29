@@ -1,0 +1,5 @@
+style possui um modelo de como declrar uma variavel no css e como utiliza-la
+a variavel deve ser criada dentro de um root, e sua sintaxe é
+--variavel: valor da variavel
+para atribuir um valor a um atributo por meio de uma varivel, deve ser utilizado
+o var(variavel)

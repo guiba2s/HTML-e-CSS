@@ -1,0 +1,2 @@
+pseudoclasse target é utilizado para apliar estilização via url, por meio dos links
+ancora.

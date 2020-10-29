@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Estilizando via URL </title>
+    <link rel="stylesheet" href="css/master.css">
+
+    <style>
+      .noticia:target {background-color: red; padding: 10px;}
+    </style>
+
+
+  </head>
+  <body>
+
+    <a href="#noticia1"> Noticia 1 </a>
+    <a href="#noticia2"> Noticia 2 </a>
+
+    <div id="noticia1" class="noticia">
+      <h1> Título da noticia</h1>
+      <p> Texto Qualquer </p>
+    </div>
+
+    <div id="noticia2" class="noticia">
+      <h1> Título da noticia</h1>
+      <p> Texto Qualquer </p>
+    </div>
+
+  </body>
+</html>

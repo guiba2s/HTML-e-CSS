@@ -1,0 +1,14 @@
+:root{
+  --bg-color: blue;
+  --cor-do-texto: #fff;
+  --espacamento: 20px;
+  --alinhamento: center;
+}
+
+
+#div1{
+  background-color: var(--bg-color);
+  color: var(--cor-do-texto);
+  padding: var(--espacamento);
+  text-align: var(--alinhamento);
+}

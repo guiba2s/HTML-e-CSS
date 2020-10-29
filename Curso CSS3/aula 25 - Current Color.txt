@@ -1,0 +1,4 @@
+Para não ficar repetindo código, informando a cor, a propriedade "currentColor" irá 
+aplicar a cor que foi configurada na propriedade "color"
+
+CurrentColor é uma propriedade que recebe a informação da propriedade color
