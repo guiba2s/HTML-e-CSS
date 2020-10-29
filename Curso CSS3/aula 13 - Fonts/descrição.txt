@@ -1,0 +1,1 @@
+Uso do float - essa tag é utiliada para deixar div flutuando em áreas do navegador 

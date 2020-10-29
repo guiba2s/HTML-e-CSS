@@ -8,3 +8,8 @@ src -> caminho que irá buscar a imagem
 alt -> texto alternativo que irá aparecer na imagem, caso por alguma razão a imagem
 não seja carregada
 title -> texto que irá aparecer quaso eu descance o mouse em cima da imagem
+
+icon - uso de icones no título na aba da página
+<link rel = "icon" href = "logo.png">
+
+rel -> relação que a imagem tem com o texto, no caso eu defino como ícone

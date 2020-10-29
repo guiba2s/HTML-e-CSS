@@ -1,0 +1,7 @@
+Border -> existem vários tipos de bordas, como dotted, dashed, solid (mais utilizado), etc
+Border-width -> largura da borda
+
+a borda pode ser aplica em apenas um lado com o uso de border-left, border-right, border-top, border-bottom
+
+outline-> pareciido com bordar, e trabalha praticamente da mesma forma, mas ele coloca uma linha externa ao elemento e não trabalha
+com lados individuais.

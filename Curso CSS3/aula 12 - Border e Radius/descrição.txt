@@ -1,0 +1,1 @@
+Border - Radius - Cria cantos arredondados nas bordas dos backgrounds, e é um atributo

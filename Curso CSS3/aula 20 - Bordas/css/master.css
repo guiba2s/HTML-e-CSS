@@ -1,0 +1,8 @@
+#exemplo{
+  border-bottom: dotted;
+  border-width: 5px;
+  border-color: red;
+  outline-width: 5px; 
+  outline-color: green;
+  outline-style: solid;
+}

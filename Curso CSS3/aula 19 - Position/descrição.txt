@@ -1,0 +1,4 @@
+Position -> usado para posicionar um objeto na página.
+1) - se eu quiser posicionar algo em relação a posição do div pai, tenho que colocar o atributo position:relative; na div pai.
+2) - Position:absolute -> irá posicionar algo em relação a página e será uma posição absoluta
+3) - Posion:fixed -> o objeto irá ficar fixo, enquando os demais ele,entos irão reagir ao movimento da página, ou seja, a página desce mas a div fica fixa na tela.
