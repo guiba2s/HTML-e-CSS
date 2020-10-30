@@ -1,5 +1,3 @@
-a função CALC é utilizada para realizar operações matematicas entre atributos
+Para aplicar filtro em uma imagem, basta atribuir o atribuito "filter:"
 
-.banner {width: 100vw; height: CALC(100vh - 80px); background-color: red}
-nesse exemplo o cal irá subtrai 80px de 100vh, fazendo com que a janela esteja ocupando o espaço todo do navegador
-e de demais dispositivos, dessa forma é eliminador o incremento que ocorre se declarar a nav e a div separadamente
+  img{margin: 40px 0 60px; filter: contrast(100%);}
